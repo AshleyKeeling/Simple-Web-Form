@@ -1,0 +1,38 @@
+body {
+    background-color:rgb(195, 224, 255);
+    margin: 1em;
+}
+
+main {
+    border-radius: 0.5em;
+    background-color: white;
+    /* height: ; */
+    margin: 1em 3em;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    /* max-width: 40em; */
+    /* height: 40em; */
+    object-fit:cover;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    /* border-radius: 0.6em; */
+}
+
+
+#signUp {
+}
+
+@media screen and (max-device-width: 767px){
+    img {
+        height: 10em;
+    }
+}
+
+@media screen and (max-device-width: 500px){
+    img {
+        height: 6em;
+    }
+}
